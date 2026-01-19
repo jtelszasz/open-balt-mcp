@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 search:*)",
+      "Bash(brew install:*)",
+      "Bash(python3.11:*)",
+      "Bash(pip3.11 install:*)",
+      "Bash(timeout 3 python3.11:*)",
+      "Bash(gtimeout 3 python3.11:*)",
+      "Bash(chmod:*)",
+      "Bash(cat:*)"
+    ]
+  }
+}

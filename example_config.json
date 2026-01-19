@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "balt-permit": {
+      "command": "python3",
+      "args": [
+        "/Users/justin/Library/CloudStorage/GoogleDrive-jtelszasz@gmail.com/My Drive/05 Code/balt-permit-mcp-server/server.py"
+      ],
+      "env": {}
+    }
+  }
+}
