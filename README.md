@@ -211,3 +211,6 @@ This MCP server is provided as-is. The data source is Baltimore City's open data
 For issues or questions about this MCP server, please open an issue in the repository.
 
 For questions about the underlying data, contact Baltimore City's open data team.
+=======
+# open-balt-mcp
+MCP for accessing Baltimore's open data
