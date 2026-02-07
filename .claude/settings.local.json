@@ -14,7 +14,12 @@
       "mcp__balt-permit__count_permits",
       "Bash(python:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__balt-permit__get_recent_permits",
+      "WebFetch(domain:egisdata.baltimorecity.gov)",
+      "mcp__balt-permit__search_permits_by_address",
+      "WebSearch"
     ]
   },
   "enabledMcpjsonServers": [
