@@ -151,20 +151,22 @@ def format_permit(permit: dict) -> str:
     cost = props.get("Cost")
     cost_str = f"${cost:,.0f}" if cost else "N/A"
     
-    return f"""Permit: {props.get('CaseNumber', 'N/A')}
-Address: {props.get('Address', 'N/A')}
-Neighborhood: {props.get('Neighborhood', 'N/A')}
-Issued: {issued_date}
-Expires: {expiration_date}
-Cost: {cost_str}
-Description: {props.get('Description', 'N/A')[:200]}...
-Block/Lot: {props.get('BLOCKLOT', 'N/A')}
-Council District: {props.get('Council_District', 'N/A')}
-Existing Use: {props.get('ExistingUse', 'N/A')}
-Proposed Use: {props.get('ProposedUse', 'N/A')}
-Location: {coords}
-Modification: {'Yes' if props.get('IsPermitModification') else 'No'}
+    return f"""
+    Permit: {props.get('CaseNumber', 'N/A')}
+    Address: {props.get('Address', 'N/A')}
+    Neighborhood: {props.get('Neighborhood', 'N/A')}
+    Issued: {issued_date}
+    Expires: {expiration_date}
+    Cost: {cost_str}
+    Description: {props.get('Description', 'N/A')[:200]}...
+    Block/Lot: {props.get('BLOCKLOT', 'N/A')}
+    Council District: {props.get('Council_District', 'N/A')}
+    Existing Use: {props.get('ExistingUse', 'N/A')}
+    Proposed Use: {props.get('ProposedUse', 'N/A')}
+    Location: {coords}
+    Modification: {'Yes' if props.get('IsPermitModification') else 'No'}
 ---"""
+
 
 
 @app.list_tools()

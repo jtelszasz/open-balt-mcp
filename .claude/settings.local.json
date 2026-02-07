@@ -10,7 +10,14 @@
       "Bash(timeout 3 python3.11:*)",
       "Bash(gtimeout 3 python3.11:*)",
       "Bash(chmod:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "mcp__balt-permit__count_permits",
+      "Bash(python:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "balt-permit"
+  ]
 }
