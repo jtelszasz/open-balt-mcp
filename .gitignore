@@ -209,3 +209,9 @@ __marimo__/
 
 # Temporary output files (charts, scripts, etc.)
 tmp/
+
+# Local MCP config (contains machine-specific paths)
+.mcp.json
+
+# macOS
+.DS_Store
